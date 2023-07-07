@@ -1,0 +1,18 @@
+{
+  "name": "brand-75",
+  "version": "0.0.1",
+  "description": "iMotor Testing - Toyota (full set of GraphQl data)",
+  "main": "index.js",
+  "author": "iMotor",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "shared-components": "*"
+  },
+  "dependencies": {
+    "shared-components": "*"
+  },
+  "devDependencies": {
+    "shared-components": "*"
+  }
+}

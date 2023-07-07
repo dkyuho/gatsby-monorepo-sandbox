@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Modal /> matches basic snapshot 1`] = `<div />`;
+
+exports[`<Modal /> matches snapshot when modal is showed and onclick function works correctly 1`] = `<div />`;
+
+exports[`<Modal /> matches snapshot with custom props 1`] = `<div />`;

@@ -1,0 +1,21 @@
+{
+  "name": "shared-components",
+  "version": "0.0.1",
+  "description": "Theme for shared components",
+  "main": "index.ts",
+  "author": "iMotor",
+  "license": "MIT",
+  "private": true,
+  "sideEffects": [
+    "*.css"
+  ],
+  "peerDependencies": {
+    "base-components": "*"
+  },
+  "dependencies": {
+    "base-components": "*"
+  },
+  "devDependencies": {
+    "base-components": "*"
+  }
+}

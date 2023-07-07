@@ -1,0 +1,10 @@
+.cache
+.DS_Store
+.vscode
+/yarn-error.log
+/stats.json
+coverage
+node_modules
+
+# ignore public folder - used for final build files and caches
+public

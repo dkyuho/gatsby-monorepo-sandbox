@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LinkBasic /> matches basic snapshot 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: 333;
+  cursor: pointer;
+}
+
+.emotion-0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <a
+    class="classLinkBasic emotion-0"
+    data-testid="gatsby-link"
+    href="/test-url"
+  >
+    Link Gatsby
+  </a>
+</div>
+`;
+
+exports[`<LinkBasic /> matches snapshot with custom props 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: 333;
+  cursor: pointer;
+}
+
+.emotion-0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <a
+    class="classLinkBasic emotion-0"
+    custom-prop="custom-prop"
+    data-testid="gatsby-link"
+    href="/test-url"
+  >
+    Link Gatsby
+  </a>
+</div>
+`;
+
+exports[`<LinkBasic /> matches snapshot with external links 1`] = `
+.emotion-0 {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: 333;
+  cursor: pointer;
+}
+
+.emotion-0:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<div>
+  <a
+    class="classLinkBasic emotion-0"
+    href="www.google.com"
+  >
+    Link Gatsby
+  </a>
+</div>
+`;

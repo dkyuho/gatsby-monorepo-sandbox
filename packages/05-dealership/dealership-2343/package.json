@@ -1,0 +1,18 @@
+{
+  "name": "dealership-2343",
+  "version": "0.0.1",
+  "description": "Test Dealership Theme",
+  "main": "index.js",
+  "author": "iMotor",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "brand-75": "*"
+  },
+  "dependencies": {
+    "brand-75": "*"
+  },
+  "devDependencies": {
+    "brand-75": "*"
+  }
+}

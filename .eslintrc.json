@@ -1,0 +1,117 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    // https://www.npmjs.com/package/eslint-plugin-jest
+    "jest": true
+  },
+  "extends": [
+    "airbnb",
+    "prettier",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "babelOptions": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "requireConfigFile": false
+  },
+  "plugins": [
+    "react",
+    "prettier",
+    "@emotion"
+  ],
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "react/prop-types": 0,
+    "react/require-default-props": "off",
+    "no-bitwise": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "printWidth": 120,
+        "tabWidth": 2,
+        "semi": false
+      }
+    ],
+    //need to be discussed
+    "react/jsx-props-no-spreading": [
+      "off",
+      {
+        "html": "ignore",
+        "custom": "ignore"
+      }
+    ],
+    // need to be discussed
+    "import/no-extraneous-dependencies": "off",
+    "radix": [
+      "error",
+      "always"
+    ],
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    ],
+    "react/function-component-definition": [
+      2,
+      {
+        "namedComponents": "arrow-function",
+        "unnamedComponents": "arrow-function"
+      }
+    ],
+    "react/no-unknown-property": [
+      "error",
+      {
+        "ignore": [
+          "css"
+        ]
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "@typescript-eslint/no-var-requires": 0
+  }
+}

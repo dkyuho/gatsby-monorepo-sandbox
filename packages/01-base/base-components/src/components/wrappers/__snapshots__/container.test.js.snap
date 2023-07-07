@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container /> calls custom onClick and onKeyDown function 1`] = `
+.emotion-0 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    role="presentation"
+  >
+    Container Tree
+  </div>
+</div>
+`;
+
+exports[`<Container /> correctly renders with inner content 1`] = `
+.emotion-0 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    role="presentation"
+  >
+    Container Tree
+  </div>
+</div>
+`;
+
+exports[`<Container /> correctly renders with inner element 1`] = `
+.emotion-0 {
+  max-width: 1400px;
+  margin: auto;
+}
+
+<div>
+  <div
+    class="emotion-0"
+    role="presentation"
+  >
+    <div
+      data-testid="inner-div"
+    >
+      Inner div content
+    </div>
+  </div>
+</div>
+`;
