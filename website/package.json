@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "description": "Gatsby Website Framework",
   "main": "gatsby-config.js",
-  "author": "iMotor",
+  "author": "dkyuho",
   "license": "MIT",
   "private": true,
   "dependencies": {

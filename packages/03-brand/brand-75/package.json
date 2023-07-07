@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "iMotor Testing - Toyota (full set of GraphQl data)",
   "main": "index.js",
-  "author": "iMotor",
+  "author": "dkyuho",
   "license": "MIT",
   "private": true,
   "peerDependencies": {

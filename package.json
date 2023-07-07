@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "description": "Gatsby project with a monorepo structure",
   "main": "index.js",
-  "author": "iMotor",
+  "author": "dkyuho",
   "license": "MIT",
   "private": true,
   "scripts": {
